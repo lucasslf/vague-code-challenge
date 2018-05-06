@@ -9,8 +9,9 @@ server:
     port: 8081
 spring:
   
-    
+  kafka:
+    bootstrap-servers: kafka:9092
   data:
     mongodb:
-        host: 127.0.0.1
+        host: users-mongo
         databaseName: vague-users

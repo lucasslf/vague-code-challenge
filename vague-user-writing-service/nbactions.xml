@@ -43,4 +43,12 @@
                 <exec.executable>java</exec.executable>
             </properties>
         </action>
+        <action>
+            <actionName>CUSTOM-dockefile</actionName>
+            <displayName>dockefile</displayName>
+            <goals>
+                <goal>install</goal>
+                <goal>dockerfile:build</goal>
+            </goals>
+        </action>
     </actions>

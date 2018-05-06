@@ -5,5 +5,12 @@ logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
 
-  
+spring:
+
+ kafka:
+    bootstrap-servers: kafka:9092
+ data:
+   mongodb:
+       host: users-mongo
+       databaseName: vague-users 
    
