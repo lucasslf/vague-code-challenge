@@ -8,7 +8,6 @@ package com.statflo.vague.user.controller;
 import com.statflo.vague.user.domain.User;
 import com.statflo.vague.user.domain.UserRepository;
 import java.util.List;
-import static org.apache.tomcat.jni.Lock.name;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
