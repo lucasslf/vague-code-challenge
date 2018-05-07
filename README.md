@@ -55,5 +55,5 @@ curl http://localhost:8081/v1/users?role=foo
 
 As the infrastructure components (Kafka, MongoDB) are running on Docker containers, they aren't available at build time, so the spring-boot tests were removed for the sake of simplicity.
 Since there aren't any business rules to be validated, there are no automated unit tests too.
-A future implementation would be to use a gateway API just to centralize every operation on a single endpoint and redirect the requests to the proper underlying services.
+A future implementation would be to use an API gateway just to centralize every operation on a single endpoint and redirect the requests to the proper underlying services.
 
